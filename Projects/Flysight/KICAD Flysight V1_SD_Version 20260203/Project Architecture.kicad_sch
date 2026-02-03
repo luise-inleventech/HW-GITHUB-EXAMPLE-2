@@ -9786,6 +9786,48 @@
 		)
 	)
 	(sheet
+		(at 140.716 303.784)
+		(size 42.926 22.352)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7c25b967-6a62-4506-be6e-79fa429d9459")
+		(property "Sheetname" "PaginaMock"
+			(at 140.716 303.0724 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PaginaMock.kicad_sch"
+			(at 140.716 326.7206 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Flysight V1_SD_Version"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
+					(page "25")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 19.05 90.17)
 		(size 36.83 35.56)
 		(exclude_from_sim no)
