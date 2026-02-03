@@ -555,11 +555,27 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Hola"
+		(exclude_from_sim no)
+		(at 162.814 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d690143b-50b5-405e-9405-51ffd0179461")
+	)
 	(junction
 		(at 146.05 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "757e51a7-4358-4d1f-bc88-af6827e735be")
+	)
+	(junction
+		(at 144.78 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a3850a8f-9e6f-43de-b773-9fed73bbac68")
 	)
 	(wire
 		(pts
@@ -583,6 +599,26 @@
 	)
 	(wire
 		(pts
+			(xy 134.62 106.68) (xy 144.78 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60b2be24-6cb5-4c78-bc01-39e46d50de85")
+	)
+	(wire
+		(pts
+			(xy 144.78 106.68) (xy 144.78 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c9f58e6-e149-4337-92b8-510f322dd690")
+	)
+	(wire
+		(pts
 			(xy 135.89 76.2) (xy 146.05 76.2)
 		)
 		(stroke
@@ -603,6 +639,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 101.6) (xy 114.3 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a513669e-d1f9-4b17-be33-5f3b10997a35")
+	)
+	(wire
+		(pts
 			(xy 135.89 81.28) (xy 146.05 81.28)
 		)
 		(stroke
@@ -610,6 +656,26 @@
 			(type default)
 		)
 		(uuid "b6b19423-a620-49a8-9de0-98dd168f7e08")
+	)
+	(wire
+		(pts
+			(xy 144.78 101.6) (xy 147.32 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb6658a2-b82e-44d0-abc7-f807d7e41993")
+	)
+	(wire
+		(pts
+			(xy 134.62 101.6) (xy 144.78 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee64b0aa-6cc3-4726-98a9-c0bfbd88454f")
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -682,6 +748,121 @@
 		)
 	)
 	(symbol
+		(lib_id "Osc:TSX-322524.0000MF15X-AC3")
+		(at 124.46 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2d6d2ef4-9507-4af3-803b-2b740f22e54e")
+		(property "Reference" "Y5"
+			(at 124.46 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TSX-322524.0000MF15X-AC3"
+			(at 124.46 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "oscilator:4SMD"
+			(at 124.46 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 124.46 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "N/A"
+			(at 124.46 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Seiko Epson Corporation"
+			(at 124.46 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.6 mm"
+			(at 124.46 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "IPC 7351B"
+			(at 124.46 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "cda29816-9e57-47f8-b3ca-d8938182dc07")
+		)
+		(pin "1"
+			(uuid "2d79c9e0-c450-4985-b2e5-6b2c54b7792d")
+		)
+		(pin "4"
+			(uuid "4f9cf7cf-5f7b-4abd-884e-9ba92029757e")
+		)
+		(pin "2"
+			(uuid "f2a23355-a9a2-49aa-bc6f-49555889c153")
+		)
+		(instances
+			(project "Flysight V1_SD_Version"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7c25b967-6a62-4506-be6e-79fa429d9459"
+					(reference "Y5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 148.59 83.82 0)
 		(unit 1)
@@ -742,6 +923,142 @@
 			(project ""
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7c25b967-6a62-4506-be6e-79fa429d9459"
 					(reference "#PWR073")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 147.32 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "81c401c0-6e43-46bc-a62d-16ff5b55cbcf")
+		(property "Reference" "R20"
+			(at 149.86 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 149.86 106.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 145.542 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 147.32 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 147.32 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4050d600-30b0-4d22-8c7b-d3f91561faf3")
+		)
+		(pin "1"
+			(uuid "95f6cb6a-c75b-407b-8e11-a577f5b1d407")
+		)
+		(instances
+			(project "Flysight V1_SD_Version"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7c25b967-6a62-4506-be6e-79fa429d9459"
+					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 147.32 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a99afdb4-1421-4dc1-8c39-3b706f3dd820")
+		(property "Reference" "#PWR095"
+			(at 147.32 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 147.32 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 147.32 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 147.32 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "650976cc-00a4-42d4-9b75-43c6405c4740")
+		)
+		(instances
+			(project "Flysight V1_SD_Version"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7c25b967-6a62-4506-be6e-79fa429d9459"
+					(reference "#PWR095")
 					(unit 1)
 				)
 			)
