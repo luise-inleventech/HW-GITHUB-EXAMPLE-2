@@ -1,0 +1,8833 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "ea8c4f5e-7a49-4faf-a994-dbc85ed86b0a")
+	(paper "A4")
+	(title_block
+		(title "Sheet Title A")
+		(date "2025-11-08")
+		(rev "${REVISION}")
+		(company "${COMPANY}")
+	)
+	(lib_symbols
+		(symbol "0_LoRa:BGS13SN8E6327XTSA1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U2"
+				(at 16.1133 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "BGS13SN8E6327XTSA1"
+				(at 16.1133 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "BGS13SN8E6327XTSA1"
+				(at 24.13 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.mouser.ph/ProductDetail/Infineon-Technologies/BGS13SN8E6327XTSA1?qs=0DP5yvOrqYmFtfP%252BZ8kQgQ%3D%3D"
+				(at 24.13 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "INFINEON - BGS13SN8E6327XTSA1 - RF SWITCH, SP3T, 0.1-6GHZ, TSNP-8"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "0.4"
+				(at 24.13 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Infineon"
+				(at 24.13 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "BGS13SN8E6327XTSA1"
+				(at 24.13 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "726-BGS13SN8E6327XTS"
+				(at 24.13 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/BGS13SN8E6327XTSA1?qs=0DP5yvOrqYmFtfP%252BZ8kQgQ%3D%3D"
+				(at 24.13 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" "BGS13SN8E6327XTSA1"
+				(at 24.13 -894.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/bgs13sn8e6327xtsa1/infineon-technologies-ag?region=nac"
+				(at 24.13 -994.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "BGS13SN8E6327XTSA1_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 22.86 -10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "RF1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 0)
+					(length 5.08)
+					(name "RF2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "RF3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 13.97 7.62 270)
+					(length 5.08)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 13.97 -15.24 90)
+					(length 5.08)
+					(name "DGND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 0 180)
+					(length 5.08)
+					(name "V1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 -3.81 180)
+					(length 5.08)
+					(name "RFIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 -7.62 180)
+					(length 5.08)
+					(name "V2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Bluetooth____LoRa:GCM1555C1H680JA16D"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0 3.8109 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "GCM1555C1H680JA16D"
+				(at 0 -5.0885 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "GCM1555C1H680JA16D:CAPC1005X55N"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GCM1555C1H680JA16D_0_0"
+				(rectangle
+					(start 0 -1.9069)
+					(end 0.635 1.905)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 1.9069 -1.9069)
+					(end 2.54 1.905)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Bluetooth____LoRa:GCM155R71E473KA55J"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0 3.8109 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "GCM155R71E473KA55J"
+				(at 0 -5.0885 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "GCM155R71E473KA55J:CAPC1005X55N"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GCM155R71E473KA55J_0_0"
+				(rectangle
+					(start 0 -1.9069)
+					(end 0.635 1.905)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 1.9069 -1.9069)
+					(end 2.54 1.905)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Bluetooth____LoRa:GND_POWER_GROUND"
+			(power)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "El símbolo de potencia crea una etiqueta global con el nombre 'GND'"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_POWER_GROUND_0_0"
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -3.302) (xy 1.778 -3.302)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -4.064) (xy 1.016 -4.064)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 -4.826) (xy 0.254 -4.826)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 0 0)
+					(length 0)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Bluetooth____LoRa:U_Top_0_Capacitor_MCD_PARTS_database.DbLib"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Capacitor, MLCC, 4.7uF, 16V, X5R, 10%, 0603, T=0.8mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*CAPC1608X09N*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "U_Top_0_Capacitor_MCD_PARTS_database.DbLib_1_0"
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0.762 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -4.572) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.778 -0.508) (xy 1.778 -4.572)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 1.778 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -2.54 -2.54 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Bluetooth____LoRa:U_Top_0_STM32WLxx_QFN48_MBxx.SCHLIB"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "HQDC : Verified April, 25 2019"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*STM32WLxx_QFN48*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "U_Top_0_STM32WLxx_QFN48_MBxx.SCHLIB_1_0"
+				(rectangle
+					(start 20.32 5.08)
+					(end -10.16 -48.26)
+					(stroke
+						(width 0.0254)
+						(type solid)
+						(color 0 0 128 1)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -12.7 0 0)
+					(length 2.54)
+					(name "VDDRF1V55"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -5.08 0)
+					(length 2.54)
+					(name "VDDPA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -10.16 0)
+					(length 2.54)
+					(name "VDDRF"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -15.24 0)
+					(length 2.54)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "49"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -30.48 0)
+					(length 2.54)
+					(name "PB0-VDD_TCXO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -35.56 0)
+					(length 2.54)
+					(name "OSC_IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -38.1 0)
+					(length 2.54)
+					(name "OSC_OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 0 180)
+					(length 2.54)
+					(name "VR_PA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -7.62 180)
+					(length 2.54)
+					(name "RFO_HP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -15.24 180)
+					(length 2.54)
+					(name "RFO_LP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -25.4 180)
+					(length 2.54)
+					(name "RFI_P"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -40.64 180)
+					(length 2.54)
+					(name "RFI_N"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "U_Top_0_STM32WLxx_QFN48_MBxx.SCHLIB_2_0"
+				(rectangle
+					(start 7.62 0)
+					(end -12.7 -25.4)
+					(stroke
+						(width 0.0254)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -15.24 -5.08 0)
+					(length 2.54)
+					(name "VDDSMPS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "46"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -15.24 -10.16 0)
+					(length 2.54)
+					(name "VLXSMPS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "47"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -15.24 -15.24 0)
+					(length 2.54)
+					(name "VFBSMPS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "45"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -15.24 -22.86 0)
+					(length 2.54)
+					(name "VSSSMPS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "48"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "U_Top_0_STM32WLxx_QFN48_MBxx.SCHLIB_3_0"
+				(rectangle
+					(start 17.78 0)
+					(end -20.32 -20.32)
+					(stroke
+						(width 0.0254)
+						(type solid)
+						(color 0 0 128 1)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -22.86 -5.08 0)
+					(length 2.54)
+					(name "PC14-OSC32_IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "39"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -22.86 -15.24 0)
+					(length 2.54)
+					(name "PC15-OSC32_OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "40"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -5.08 180)
+					(length 2.54)
+					(name "PH3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -15.24 180)
+					(length 2.54)
+					(name "NRST"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "U_Top_0_STM32WLxx_QFN48_MBxx.SCHLIB_4_0"
+				(rectangle
+					(start 17.78 0)
+					(end -12.7 -27.94)
+					(stroke
+						(width 0.0254)
+						(type solid)
+						(color 0 0 128 1)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 18.288 -25.4) (xy 18.288 -28.448) (xy 15.24 -28.448)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 18.288 -28.448) (xy 20.32 -30.48)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -15.24 -5.08 0)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "44"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -15.24 -7.62 0)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -15.24 -17.78 0)
+					(length 2.54)
+					(name "VBAT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "37"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -15.24 -22.86 0)
+					(length 2.54)
+					(name "VDDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "41"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -33.02 90)
+					(length 2.54)
+					(name "VSS_(ExPAD)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "49"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "U_Top_0_STM32WLxx_QFN48_MBxx.SCHLIB_5_0"
+				(rectangle
+					(start 20.32 0)
+					(end -20.32 -58.42)
+					(stroke
+						(width 0.0254)
+						(type solid)
+						(color 0 0 128 1)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -22.86 -5.08 0)
+					(length 2.54)
+					(name "PA0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -22.86 -7.62 0)
+					(length 2.54)
+					(name "PA1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -22.86 -10.16 0)
+					(length 2.54)
+					(name "PA2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -22.86 -12.7 0)
+					(length 2.54)
+					(name "PA3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -22.86 -15.24 0)
+					(length 2.54)
+					(name "PA4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -22.86 -17.78 0)
+					(length 2.54)
+					(name "PA5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -22.86 -20.32 0)
+					(length 2.54)
+					(name "PA6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -22.86 -22.86 0)
+					(length 2.54)
+					(name "PA7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -22.86 -25.4 0)
+					(length 2.54)
+					(name "PA8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -22.86 -27.94 0)
+					(length 2.54)
+					(name "PA9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -22.86 -30.48 0)
+					(length 2.54)
+					(name "PA10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -22.86 -33.02 0)
+					(length 2.54)
+					(name "PA11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "34"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -22.86 -35.56 0)
+					(length 2.54)
+					(name "PA12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "35"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -22.86 -38.1 0)
+					(length 2.54)
+					(name "PA13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "36"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -22.86 -40.64 0)
+					(length 2.54)
+					(name "PA14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "42"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -22.86 -43.18 0)
+					(length 2.54)
+					(name "PA15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "43"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -22.86 -50.8 0)
+					(length 2.54)
+					(name "PC13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "38"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -10.16 180)
+					(length 2.54)
+					(name "PB2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "31"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -12.7 180)
+					(length 2.54)
+					(name "PB3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -15.24 180)
+					(length 2.54)
+					(name "PB4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -17.78 180)
+					(length 2.54)
+					(name "PB5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -20.32 180)
+					(length 2.54)
+					(name "PB6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -22.86 180)
+					(length 2.54)
+					(name "PB7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -25.4 180)
+					(length 2.54)
+					(name "PB8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -35.56 180)
+					(length 2.54)
+					(name "PB12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Bluetooth____LoRa:U_Top_0_mirrored_Inductor_MCD_PARTS_database.DbLib"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Résistance 0 ohm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*IND_MURATA_LQW15A*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "U_Top_0_mirrored_Inductor_MCD_PARTS_database.DbLib_1_0"
+				(arc
+					(start -8.89 -1.27)
+					(mid -7.992 -1.642)
+					(end -7.62 -2.54)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -10.16 -2.54)
+					(mid -9.788 -1.642)
+					(end -8.89 -1.27)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -6.35 -1.27)
+					(mid -5.452 -1.642)
+					(end -5.08 -2.54)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -7.62 -2.54)
+					(mid -7.248 -1.642)
+					(end -6.35 -1.27)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -3.81 -1.27)
+					(mid -2.912 -1.642)
+					(end -2.54 -2.54)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -5.08 -2.54)
+					(mid -4.708 -1.642)
+					(end -3.81 -1.27)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.27 -1.27)
+					(mid -0.372 -1.642)
+					(end 0 -2.54)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.54 -2.54)
+					(mid -2.168 -1.642)
+					(end -1.27 -1.27)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -12.7 -2.54 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -2.54 180)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Bluetooth____LoRa:U_Top_1_Capacitor_MCD_PARTS_database.DbLib"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Capacitor, MLCC, 33pF, 50V, NPO, 2%, 0402, T=0,5mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*CAPC1005X06N*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "U_Top_1_Capacitor_MCD_PARTS_database.DbLib_1_0"
+				(polyline
+					(pts
+						(xy 0.508 1.778) (xy 4.572 1.778)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 2.54 0.762)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.572 0.762) (xy 0.508 0.762)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Bluetooth____LoRa:U_Top_3_Inductor_MCD_PARTS_database.DbLib"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "RF Inductor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*IND_MURATA_LQW15A*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "U_Top_3_Inductor_MCD_PARTS_database.DbLib_1_0"
+				(arc
+					(start -1.27 -1.27)
+					(mid -1.642 -2.168)
+					(end -2.54 -2.54)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.54 0)
+					(mid -1.642 -0.372)
+					(end -1.27 -1.27)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.27 -3.81)
+					(mid -1.642 -4.708)
+					(end -2.54 -5.08)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.54 -2.54)
+					(mid -1.642 -2.912)
+					(end -1.27 -3.81)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.27 -6.35)
+					(mid -1.642 -7.248)
+					(end -2.54 -7.62)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.54 -5.08)
+					(mid -1.642 -5.452)
+					(end -1.27 -6.35)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.27 -8.89)
+					(mid -1.642 -9.788)
+					(end -2.54 -10.16)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.54 -7.62)
+					(mid -1.642 -7.992)
+					(end -1.27 -8.89)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -2.54 2.54 270)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -12.7 90)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Bluetooth____LoRa:VDD"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VDD"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VDD\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VDD_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VDD_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:L"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "L"
+				(at -1.27 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "L"
+				(at 1.905 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Inductor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "inductor choke coil reactor magnetic"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "L_0_1"
+				(arc
+					(start 0 2.54)
+					(mid 0.6323 1.905)
+					(end 0 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 1.27)
+					(mid 0.6323 0.635)
+					(end 0 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0)
+					(mid 0.6323 -0.635)
+					(end 0 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -1.27)
+					(mid 0.6323 -1.905)
+					(end 0 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "L_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(rectangle
+		(start 17.78 30.48)
+		(end 281.432 149.86)
+		(stroke
+			(width 1)
+			(type default)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid bb86d4de-8a6c-49fd-bb3c-0c8f9cc72e55)
+	)
+	(text "J. Pieper ADC investigation"
+		(exclude_from_sim no)
+		(at 142.24 170.18 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+			(href "https://jpieper.com/2023/07/24/stm32g4-adc-performance-part-2/")
+		)
+		(uuid "9b3ecc35-3df2-428b-a29e-c6c2c744422e")
+	)
+	(text "Antenna & Radio Interface"
+		(exclude_from_sim no)
+		(at 135.382 47.752 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "a85cdf98-1924-414a-9e78-e8d9105adfd5")
+	)
+	(text "STM32G474 Datasheet p.81"
+		(exclude_from_sim no)
+		(at 142.24 166.37 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+			(href "https://www.st.com/resource/en/datasheet/stm32g474cb.pdf")
+		)
+		(uuid "e6fea1fe-2cf8-4a39-929e-14f4aedafb02")
+	)
+	(text "AN5346"
+		(exclude_from_sim no)
+		(at 142.24 162.56 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+			(href "https://www.st.com/resource/en/application_note/an5346-stm32g4-adc-use-tips-and-recommendations-stmicroelectronics.pdf")
+		)
+		(uuid "f25578fd-4ab6-4599-95bc-eaa8a509f479")
+	)
+	(text_box "[${#}] ${TITLE}"
+		(exclude_from_sim no)
+		(at 115.57 15.24 0)
+		(size 72.39 12.7)
+		(margins 4.4999 4.4999 4.4999 4.4999)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 6 6)
+				(thickness 1.2)
+				(bold yes)
+				(color 162 22 34 1)
+			)
+		)
+		(uuid "b2c13488-4f2f-433b-bdc6-d210d1646aca")
+	)
+	(text_box "Block Description"
+		(exclude_from_sim no)
+		(at 57.15 139.7 0)
+		(size 190.5 7.62)
+		(margins 1.9049 1.9049 1.9049 1.9049)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 162 22 34 1)
+			)
+			(justify bottom)
+		)
+		(uuid "b610ad11-6470-4e17-bb6a-df05c5ad2515")
+	)
+	(junction
+		(at 49.53 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0089b7ce-d45c-401d-8be3-a9075193b2a0")
+	)
+	(junction
+		(at 142.24 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0538773d-f1b1-4337-bb89-1461cbd48329")
+	)
+	(junction
+		(at 64.77 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "118403c5-7139-4bf7-9bd6-692d0089efc2")
+	)
+	(junction
+		(at 149.86 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1e1b21a4-c664-476a-aaf9-b435a85579d9")
+	)
+	(junction
+		(at 49.53 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2e82262a-6174-4a8d-ad25-8df35f27c89a")
+	)
+	(junction
+		(at 219.4929 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "308e478f-a294-497c-96f9-908c21f1a1e9")
+	)
+	(junction
+		(at 72.39 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "582a9fdd-5c36-4905-a23a-f1af5e28c1d4")
+	)
+	(junction
+		(at 226.06 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "59021305-eb1f-43c4-ab76-a73af412f44b")
+	)
+	(junction
+		(at 78.74 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6e4bf4ae-c0be-45b4-b5a4-b7e2342e14b0")
+	)
+	(junction
+		(at 55.88 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "83429f29-0c4a-4ef3-a84d-3c4f4802cf7f")
+	)
+	(junction
+		(at 219.4929 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8a579651-283d-4a27-b37f-530fa9477cf9")
+	)
+	(junction
+		(at 157.48 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8cae624c-b570-46a4-8beb-324464a859c2")
+	)
+	(junction
+		(at 207.01 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "98d3e5c0-8b1d-43cb-ae9a-ba2484f40c33")
+	)
+	(junction
+		(at 62.23 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a1e97aec-ccb3-47cf-8dcd-18ded18d4ff0")
+	)
+	(junction
+		(at 86.36 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aac8f2df-dd20-4f55-a176-d0ab20cb4862")
+	)
+	(junction
+		(at 62.23 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c37264ef-c3d6-413e-8adf-bf0d2e4a5661")
+	)
+	(junction
+		(at 191.77 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ca180996-b64b-4ff4-8d8e-f503b2ed5345")
+	)
+	(junction
+		(at 104.14 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d2f03e71-7528-4af0-b462-54e8d68b2328")
+	)
+	(junction
+		(at 95.25 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d5c32e31-b98f-4d98-b41d-527e66dc9b09")
+	)
+	(junction
+		(at 199.1729 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fa2c59b1-4b58-4132-b3aa-39b9ec6186ba")
+	)
+	(junction
+		(at 55.88 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fe3bbb88-5b2c-4e9a-8b72-0b74e6480557")
+	)
+	(no_connect
+		(at 105.41 77.47)
+		(uuid "2a953dac-e59c-453e-9b7a-68468d524700")
+	)
+	(no_connect
+		(at 237.2729 91.44)
+		(uuid "a047f922-ee20-42b0-a645-3ba5cc83794f")
+	)
+	(bus_entry
+		(at 40.64 128.27)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10184380-88d5-4c86-a6a5-b065ec8509ed")
+	)
+	(bus_entry
+		(at 40.64 143.51)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f60129a-f460-4319-96ee-97feb4adb60a")
+	)
+	(bus_entry
+		(at 40.64 140.97)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4566cb55-afdf-4ba3-8cbd-5ec189561737")
+	)
+	(bus_entry
+		(at 40.64 130.81)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46cb35ad-099a-4d43-9859-04bbd73ce7d1")
+	)
+	(bus_entry
+		(at 223.52 77.47)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d482579-1c67-4ebc-9105-dbdfc8b59442")
+	)
+	(bus_entry
+		(at 223.52 74.93)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "667212fd-f790-43e7-b21c-4017b4d23f89")
+	)
+	(bus_entry
+		(at 223.52 80.01)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e870da2-5f2c-45c1-890a-cf2805e74890")
+	)
+	(bus_entry
+		(at 40.64 138.43)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93e68936-ba89-4fd6-9067-2ab66188e32a")
+	)
+	(bus_entry
+		(at 223.52 72.39)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9aa162b0-f954-4e11-9607-601e07637ab7")
+	)
+	(bus_entry
+		(at 40.64 133.35)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9dd950be-b753-42fc-82d4-5bb8169439c4")
+	)
+	(bus_entry
+		(at 40.64 135.89)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e880010d-a32d-47cf-8bdb-808f7dc12b1a")
+	)
+	(bus_entry
+		(at 259.08 116.84)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebcd4749-64dd-418b-a894-46d119cde3e7")
+	)
+	(wire
+		(pts
+			(xy 91.44 48.26) (xy 78.74 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0035d178-3eea-45e5-a99f-02ae6684f411")
+	)
+	(wire
+		(pts
+			(xy 21.59 73.66) (xy 39.37 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00580313-f6d2-4103-a371-cc8a45c19ad4")
+	)
+	(wire
+		(pts
+			(xy 116.84 73.66) (xy 116.84 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "020580fa-f487-4bac-8806-39a261a6c682")
+	)
+	(wire
+		(pts
+			(xy 62.23 73.66) (xy 77.47 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04ec7fd9-5b6e-403c-8a30-e452eba6ea99")
+	)
+	(wire
+		(pts
+			(xy 62.23 73.66) (xy 62.23 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "063f6d66-9820-4242-b4eb-364d026526fd")
+	)
+	(wire
+		(pts
+			(xy 171.2329 72.39) (xy 167.4229 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13db1c63-a1bd-4155-8cec-27330aefbda5")
+	)
+	(wire
+		(pts
+			(xy 153.67 64.77) (xy 157.48 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1754f23b-a467-4d59-b7a5-3260c69e356b")
+	)
+	(wire
+		(pts
+			(xy 214.63 80.01) (xy 223.52 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17ea4748-b6dd-4507-b294-53094a64cb3c")
+	)
+	(wire
+		(pts
+			(xy 125.73 73.66) (xy 132.08 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1813733b-f210-445a-a4a5-1ed27a21cace")
+	)
+	(wire
+		(pts
+			(xy 68.58 111.76) (xy 68.58 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "192c9748-ecc7-4854-be32-f9635ec98a3d")
+	)
+	(wire
+		(pts
+			(xy 78.74 48.26) (xy 64.77 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b7622ab-b3d5-4202-9663-7ebe98317f6a")
+	)
+	(wire
+		(pts
+			(xy 214.63 74.93) (xy 223.52 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e2fdeef-868c-4fcc-a86d-28e2a95ab9d0")
+	)
+	(wire
+		(pts
+			(xy 62.23 85.09) (xy 62.23 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2151efa3-c9c4-4691-bb4a-320accf2737e")
+	)
+	(wire
+		(pts
+			(xy 142.24 73.66) (xy 146.05 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "236ae16a-7967-4826-8298-ab6dfe264aba")
+	)
+	(wire
+		(pts
+			(xy 149.86 83.82) (xy 157.48 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "237377d0-c59e-45ef-9cec-c8b21d0b9def")
+	)
+	(wire
+		(pts
+			(xy 24.13 133.35) (xy 40.64 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "238e796e-0509-462d-adac-f6601d7ca66e")
+	)
+	(bus
+		(pts
+			(xy 226.06 72.39) (xy 226.06 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "243eb108-b1ef-4002-ba9e-4beb137ca390")
+	)
+	(wire
+		(pts
+			(xy 207.01 90.17) (xy 207.01 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24c54ea0-f83d-435c-975a-ffc537774cd8")
+	)
+	(wire
+		(pts
+			(xy 78.74 58.42) (xy 78.74 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "259f594f-4b25-44ec-a663-510a535c92f2")
+	)
+	(bus
+		(pts
+			(xy 43.18 135.89) (xy 43.18 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a23fd4d-f241-4a73-8532-bb64e42fd113")
+	)
+	(wire
+		(pts
+			(xy 86.36 111.76) (xy 86.36 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "361657bb-b56d-4681-830d-10da933490ed")
+	)
+	(wire
+		(pts
+			(xy 24.13 138.43) (xy 40.64 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "364a20c6-4a4f-48bf-b876-0964968a3754")
+	)
+	(wire
+		(pts
+			(xy 191.77 72.39) (xy 186.4729 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "373e18a0-4e0e-4523-8103-888a1c19d806")
+	)
+	(wire
+		(pts
+			(xy 146.05 64.77) (xy 142.24 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4149f403-3138-44b6-9cbb-88da89d445de")
+	)
+	(wire
+		(pts
+			(xy 118.11 73.66) (xy 116.84 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "440599b3-a095-49a2-bd18-d8c3b11feaca")
+	)
+	(wire
+		(pts
+			(xy 207.01 72.39) (xy 191.77 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45d796ac-c5ca-4b0d-ad5c-dfb35539f00b")
+	)
+	(wire
+		(pts
+			(xy 86.36 123.19) (xy 95.25 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "490d8840-832c-4783-bf47-5c5116e87a56")
+	)
+	(wire
+		(pts
+			(xy 109.0029 101.6) (xy 109.0029 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a824f4b-69cc-4251-b048-68be9426c957")
+	)
+	(wire
+		(pts
+			(xy 64.77 59.69) (xy 64.77 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ac11c47-9373-4eb1-8a03-f94f759d16a5")
+	)
+	(wire
+		(pts
+			(xy 49.53 73.66) (xy 62.23 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ba62b29-aea2-4a2a-a66e-f7d7091c175a")
+	)
+	(bus
+		(pts
+			(xy 226.06 60.96) (xy 226.06 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "500ad8fa-5aef-44e8-82aa-80e20b0be7d3")
+	)
+	(wire
+		(pts
+			(xy 78.74 59.69) (xy 72.39 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52f5a46a-7a2c-4d60-92d6-09166642631f")
+	)
+	(bus
+		(pts
+			(xy 226.06 77.47) (xy 226.06 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55cb004f-d7d8-4f0a-9ac5-f0166ac65a3a")
+	)
+	(wire
+		(pts
+			(xy 219.4929 101.6) (xy 247.4329 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5671883a-5eda-4c02-82a9-0e771f9087ac")
+	)
+	(wire
+		(pts
+			(xy 24.13 128.27) (xy 40.64 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "591f1dcb-1691-4b03-9b88-793375241164")
+	)
+	(wire
+		(pts
+			(xy 72.39 81.28) (xy 77.47 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a09bbc7-503c-460d-a55f-8c8d3c454680")
+	)
+	(wire
+		(pts
+			(xy 49.53 104.14) (xy 55.88 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ad06294-7317-4ff7-84ab-2433411ddeb7")
+	)
+	(wire
+		(pts
+			(xy 86.36 121.92) (xy 86.36 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b23f9da-b0e2-4aa9-8e55-3b06cc8342e3")
+	)
+	(wire
+		(pts
+			(xy 142.24 73.66) (xy 142.24 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bcba25c-1820-42eb-8b38-0a8c41efde16")
+	)
+	(wire
+		(pts
+			(xy 55.88 85.09) (xy 55.88 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f790c60-6d5e-48d8-bd9c-402fa6ce65ca")
+	)
+	(wire
+		(pts
+			(xy 24.13 135.89) (xy 40.64 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61c8c906-d121-45a1-9eeb-f6ca6f8a4057")
+	)
+	(wire
+		(pts
+			(xy 72.39 92.71) (xy 72.39 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62be9b91-e2c5-49ec-aa4f-d4cc38f6edbf")
+	)
+	(wire
+		(pts
+			(xy 207.01 90.17) (xy 199.1729 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "633a5eb0-5b73-442d-92ca-0e53b5a1b6c4")
+	)
+	(wire
+		(pts
+			(xy 207.01 72.39) (xy 207.01 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "653c5841-348d-4c73-9088-17abd2e783fa")
+	)
+	(wire
+		(pts
+			(xy 72.39 59.69) (xy 64.77 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ae11fe4-9018-4cc1-b1f4-6fecfc73b4be")
+	)
+	(bus
+		(pts
+			(xy 43.18 124.46) (xy 45.72 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bc94cce-2242-4f91-bd3c-2562fca71f80")
+	)
+	(bus
+		(pts
+			(xy 43.18 130.81) (xy 43.18 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7131e914-89a5-46f3-991a-e64f77671b27")
+	)
+	(wire
+		(pts
+			(xy 116.84 81.28) (xy 105.41 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "744192a2-7ac0-4cf8-a752-44f6707da7ba")
+	)
+	(wire
+		(pts
+			(xy 247.904 91.44) (xy 237.2729 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74f8add0-596f-4646-8662-505152066d5a")
+	)
+	(bus
+		(pts
+			(xy 264.16 46.99) (xy 269.24 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "757df87d-ae24-4d53-a6d0-54c3100a4445")
+	)
+	(wire
+		(pts
+			(xy 71.12 111.76) (xy 68.58 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76d22eb7-1e48-4624-b72a-0d824d8f9852")
+	)
+	(wire
+		(pts
+			(xy 40.64 140.97) (xy 24.13 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76fdd4fa-56a7-483f-915f-f1059b58d236")
+	)
+	(wire
+		(pts
+			(xy 49.53 102.87) (xy 49.53 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7932085d-d06b-4c9a-bb26-05a09aec5046")
+	)
+	(bus
+		(pts
+			(xy 45.72 121.92) (xy 55.88 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7becb0c1-f8a7-497a-a3fc-092f2d8fcd84")
+	)
+	(wire
+		(pts
+			(xy 105.41 73.66) (xy 109.0029 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bf5f27e-9b1a-4a5e-95bb-5c40c45632bb")
+	)
+	(wire
+		(pts
+			(xy 55.88 104.14) (xy 55.88 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "821752fb-bb35-4600-8599-eda95a0fbe72")
+	)
+	(bus
+		(pts
+			(xy 226.06 49.53) (xy 226.06 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84aeded5-9f09-4c11-8ea1-a5ba0da5b2e0")
+	)
+	(wire
+		(pts
+			(xy 214.63 77.47) (xy 223.52 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8566bc7b-9274-4d5c-b301-ddd3bb0d5248")
+	)
+	(wire
+		(pts
+			(xy 143.51 101.6) (xy 109.0029 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a12d636-51c2-425a-95cc-b5cbd99d22c4")
+	)
+	(wire
+		(pts
+			(xy 46.99 92.71) (xy 49.53 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a9b981e-999d-4cdb-a40c-5d974c7f6bbf")
+	)
+	(bus
+		(pts
+			(xy 43.18 128.27) (xy 43.18 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bcfa862-743c-40e3-bdd5-442e9d029ba9")
+	)
+	(wire
+		(pts
+			(xy 104.14 111.76) (xy 115.57 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bdc2ff4-5999-4f3b-b831-070dac6bd2a0")
+	)
+	(wire
+		(pts
+			(xy 191.77 72.39) (xy 191.77 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d1d7581-505b-4291-8a2e-e67fee412103")
+	)
+	(wire
+		(pts
+			(xy 207.01 72.39) (xy 223.52 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9672c46c-fe2e-4fb7-a0c5-1f754b547d6e")
+	)
+	(wire
+		(pts
+			(xy 219.4929 116.84) (xy 259.08 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ac3fbee-6cee-44dd-bbcf-e2847ff00df0")
+	)
+	(wire
+		(pts
+			(xy 104.14 121.92) (xy 104.14 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bfd1ee5-a86a-4148-acf7-3202f1cc6810")
+	)
+	(wire
+		(pts
+			(xy 142.24 64.77) (xy 142.24 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e6285dc-16ef-4d36-aec5-475bd81e49c3")
+	)
+	(wire
+		(pts
+			(xy 139.7 73.66) (xy 142.24 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3543258-952e-45f6-863e-905ef5cb17e5")
+	)
+	(wire
+		(pts
+			(xy 46.99 73.66) (xy 49.53 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a74902cc-17de-44bb-b081-0d1cea307095")
+	)
+	(wire
+		(pts
+			(xy 157.48 64.77) (xy 157.48 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab8cec10-afa8-4b35-83cb-81d350f66b45")
+	)
+	(bus
+		(pts
+			(xy 261.62 49.53) (xy 264.16 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aebb2f13-d9f3-42ce-a128-228ef7f83bde")
+	)
+	(bus
+		(pts
+			(xy 43.18 125.73) (xy 43.18 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3582e9e-f76c-4eef-870e-6b09c2f8f893")
+	)
+	(wire
+		(pts
+			(xy 91.44 66.04) (xy 91.44 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b58aab08-7da5-45e1-8fa8-da771b2cce10")
+	)
+	(wire
+		(pts
+			(xy 49.53 85.09) (xy 55.88 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b601f561-485d-4ef1-9fad-5dfc126ffc21")
+	)
+	(bus
+		(pts
+			(xy 43.18 124.46) (xy 43.18 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6f87dc5-1bf9-4506-98bf-cc3825fb4d43")
+	)
+	(wire
+		(pts
+			(xy 104.14 111.76) (xy 104.14 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b97ac4d5-b5a2-490d-96f9-c87e3979f91e")
+	)
+	(wire
+		(pts
+			(xy 55.88 85.09) (xy 62.23 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba0f1dfb-d6fd-40a0-a357-e44e327258a9")
+	)
+	(wire
+		(pts
+			(xy 64.77 48.26) (xy 55.88 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba8e99a0-569b-4219-be01-2df1a8a160a2")
+	)
+	(wire
+		(pts
+			(xy 151.13 101.6) (xy 219.4929 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb38e6e0-3053-4bb2-8193-1f705a07692d")
+	)
+	(bus
+		(pts
+			(xy 226.06 60.96) (xy 261.62 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbe232fe-4450-4300-a103-84b2d5a9ec28")
+	)
+	(wire
+		(pts
+			(xy 86.36 111.76) (xy 91.44 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf264a00-9309-4389-bc59-a1a991920dc1")
+	)
+	(wire
+		(pts
+			(xy 22.86 92.71) (xy 39.37 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1822ea0-1dfc-494b-b4d8-d3576c155575")
+	)
+	(wire
+		(pts
+			(xy 191.77 90.17) (xy 199.1729 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3699e1a-8c67-4fdc-9bc2-6d7de04e22fe")
+	)
+	(wire
+		(pts
+			(xy 64.77 48.26) (xy 64.77 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd3038a1-0d4a-46ff-bd3b-af8d832385c1")
+	)
+	(wire
+		(pts
+			(xy 95.25 123.19) (xy 104.14 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce7b0191-4f8e-490b-b44d-db4366f9e546")
+	)
+	(wire
+		(pts
+			(xy 149.86 83.82) (xy 149.86 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ceadc50a-7228-4917-92b0-e084e6c1880c")
+	)
+	(wire
+		(pts
+			(xy 44.45 46.99) (xy 44.45 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2551ff9-5a31-4dd4-beb7-3bdda3e22a05")
+	)
+	(wire
+		(pts
+			(xy 44.45 48.26) (xy 48.26 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da9b4254-873b-47b1-8e47-e8b50d7b6e2e")
+	)
+	(wire
+		(pts
+			(xy 49.53 85.09) (xy 49.53 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db8557cd-0f49-49cd-84e9-cf235f70fa97")
+	)
+	(wire
+		(pts
+			(xy 153.67 73.66) (xy 157.48 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd26720c-4ec8-483c-8608-2f5b8e65ff06")
+	)
+	(bus
+		(pts
+			(xy 226.06 49.53) (xy 261.62 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de31de12-f72f-47c9-ae05-db6fc651b11e")
+	)
+	(wire
+		(pts
+			(xy 72.39 59.69) (xy 72.39 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de81e9b4-39e4-493f-a466-d504dd728b9a")
+	)
+	(wire
+		(pts
+			(xy 99.06 111.76) (xy 104.14 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfa67c88-f94c-4901-b13d-5cdbf23c08ad")
+	)
+	(bus
+		(pts
+			(xy 261.62 60.96) (xy 261.62 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2a855db-384a-4f16-b4d2-4247800594e0")
+	)
+	(wire
+		(pts
+			(xy 24.13 130.81) (xy 40.64 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e315d825-72b0-4f6d-bcf4-e0c6dd19c597")
+	)
+	(wire
+		(pts
+			(xy 62.23 92.71) (xy 62.23 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e507d9bb-8007-49dd-9ad3-96802123493f")
+	)
+	(wire
+		(pts
+			(xy 91.44 88.9) (xy 91.44 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e57d2647-146e-4aad-bd2a-e1668cad7ff2")
+	)
+	(wire
+		(pts
+			(xy 40.64 143.51) (xy 24.13 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5fdac39-ae9b-4a7c-8387-c217b74c51ed")
+	)
+	(wire
+		(pts
+			(xy 95.25 123.19) (xy 95.25 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e609c3fc-79f6-4972-a8a3-1a7e47f66e60")
+	)
+	(wire
+		(pts
+			(xy 78.74 111.76) (xy 86.36 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6537950-970d-4eed-b681-ac967314e2d3")
+	)
+	(wire
+		(pts
+			(xy 68.58 77.47) (xy 77.47 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e78c2b1f-b77c-402b-9a78-788c811213ed")
+	)
+	(wire
+		(pts
+			(xy 49.53 92.71) (xy 62.23 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ece851aa-c957-42f2-bce3-8d241f1e8fe6")
+	)
+	(bus
+		(pts
+			(xy 226.06 69.85) (xy 226.06 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edcb8e79-f936-4ad5-87bb-cda1045d4f04")
+	)
+	(bus
+		(pts
+			(xy 43.18 133.35) (xy 43.18 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee1597d0-bbd7-4dd7-94d7-a39da81cb540")
+	)
+	(wire
+		(pts
+			(xy 62.23 102.87) (xy 62.23 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1222294-5f4c-4857-aba9-ed118d500fda")
+	)
+	(wire
+		(pts
+			(xy 157.48 73.66) (xy 157.48 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1c420c5-ec41-4319-a646-faa5dfc13cb6")
+	)
+	(bus
+		(pts
+			(xy 43.18 138.43) (xy 43.18 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f39bca3f-9a30-4415-a1b6-8d310b97b6c6")
+	)
+	(wire
+		(pts
+			(xy 55.88 104.14) (xy 62.23 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f61c3e56-db0d-45af-b9b7-7f41d289732b")
+	)
+	(wire
+		(pts
+			(xy 49.53 73.66) (xy 49.53 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f79f5a85-9e58-4064-9969-76f39917497a")
+	)
+	(wire
+		(pts
+			(xy 191.77 82.55) (xy 191.77 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f877374b-4f99-4a7a-b026-1b771d349e28")
+	)
+	(wire
+		(pts
+			(xy 142.24 83.82) (xy 149.86 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fadddec0-84a0-479e-bc06-53acd60c6c83")
+	)
+	(wire
+		(pts
+			(xy 78.74 48.26) (xy 78.74 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb09c8e4-2758-4b24-bcfb-175ade0e3c0b")
+	)
+	(wire
+		(pts
+			(xy 49.53 92.71) (xy 49.53 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc906903-d32c-4687-bc01-193f3a3a03c1")
+	)
+	(wire
+		(pts
+			(xy 62.23 92.71) (xy 72.39 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdef39b6-a4bb-46ea-b75e-129c52ffca63")
+	)
+	(image
+		(at 118.999 178.3334)
+		(scale 0.134391)
+		(uuid "7047ec37-1cdb-4f96-9184-785cd5468fbe")
+		(data "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"
+			"ggA="
+		)
+	)
+	(label "PC13_SWITCH"
+		(at 24.13 143.51 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0116dae8-c2e2-4bf9-9671-d8e3c2322e66")
+	)
+	(label "PB2_SWITCH"
+		(at 22.86 92.71 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "07afd938-30cf-480b-94df-0fd067068665")
+	)
+	(label "RFO_HP"
+		(at 214.63 74.93 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "20e4f9b2-946e-480b-8ddd-1136a8a8dbc5")
+	)
+	(label "RFI_N"
+		(at 24.13 138.43 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "22a438cf-6351-48ff-93d8-faaa954a3d18")
+	)
+	(label "RFO_LP"
+		(at 24.13 133.35 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3eba45fa-48f5-4112-b97b-05fe04ea1371")
+	)
+	(label "RFI_P"
+		(at 234.7329 101.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "51d9d997-eff5-4b2e-9c58-d5a8b7ddbf61")
+	)
+	(label "RFI_P"
+		(at 24.13 135.89 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6358e33a-1cef-4c5b-9478-c2dc03d8f8af")
+	)
+	(label "PB2_SWITCH"
+		(at 24.13 140.97 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6fc12abf-10ee-4223-aa48-d76f3f7025e1")
+	)
+	(label "RFO_LP"
+		(at 214.63 77.47 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7288f698-86be-47ae-89de-15a77fedbef7")
+	)
+	(label "RFI_N"
+		(at 250.19 116.84 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "730bc6a2-3330-4af5-a9ec-32b73bc0e06c")
+	)
+	(label "RFI_P"
+		(at 214.63 80.01 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "75de90e8-1422-4994-bf1a-0d285e621442")
+	)
+	(label "VR_PA"
+		(at 214.63 72.39 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "77e49eff-57e2-4ebe-bb67-02385084c675")
+	)
+	(label "RFO_HP"
+		(at 24.13 130.81 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a8afbf19-770c-4483-ac69-be9d8308d0cb")
+	)
+	(label "VR_PA"
+		(at 24.13 128.27 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b045818c-b4a7-4438-b367-843acd18c46d")
+	)
+	(label "PC13_SWITCH"
+		(at 21.59 73.66 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f51c3a43-1854-4a67-91b6-21176fafdefd")
+	)
+	(hierarchical_label "Radio_LoRa"
+		(shape bidirectional)
+		(at 55.88 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "0efb39d5-455b-4abc-91d0-77d27317c7d9")
+	)
+	(hierarchical_label "LoRa"
+		(shape input)
+		(at 115.57 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dd117a8c-f551-4460-bb89-54a94303c8f9")
+	)
+	(hierarchical_label "Radio_LoRa"
+		(shape bidirectional)
+		(at 269.24 46.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "ecd26818-7e15-42cf-9d02-c4feb1e4e9ab")
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 142.24 80.01 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "03bbc6fa-5856-4946-b199-a7e76a29deb9")
+		(property "Reference" "C44"
+			(at 138.43 79.248 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "5.1 pF"
+			(at 138.684 82.296 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "LoRa:GJM1555C1H5R1DB01D"
+			(at 141.2748 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 142.24 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 142.24 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "REVISION" ""
+			(at 141.986 74.422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" ""
+			(at 137.414 82.296 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" ""
+			(at 137.16 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 141.986 74.422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0610aaa7-906f-405b-bae6-281e2eb60118")
+		)
+		(pin "2"
+			(uuid "2f44e60b-f51d-4824-8d42-0ecf5adccd20")
+		)
+		(instances
+			(project "Bluetooth_LoRa_4cm"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/e24871eb-dbd9-4f2b-bfd4-3192f147e910"
+					(reference "C44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Bluetooth____LoRa:U_Top_0_STM32WLxx_QFN48_MBxx.SCHLIB")
+		(at 335.28 49.53 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "08a9c6b3-3e5e-40db-afe7-fa4d999976fc")
+		(property "Reference" "U5"
+			(at 345.44 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "STM32WLxx_QFN48"
+			(at 345.44 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "LoRa:STM32WLXX_QFN48"
+			(at 335.28 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 335.28 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "HQDC : Verified April, 25 2019"
+			(at 335.28 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "3ec1e98d-bcf6-4246-b640-57c6fa8fd30d")
+		)
+		(pin "48"
+			(uuid "358ffd97-8cd3-4d1f-bc11-df182cd94a46")
+		)
+		(pin "2"
+			(uuid "e09b9021-c2f8-4644-a449-bc0143401f62")
+		)
+		(pin "39"
+			(uuid "80b738a8-0bdd-41e4-b6ea-34859ab2900b")
+		)
+		(pin "40"
+			(uuid "36b007fe-b55a-478b-95fb-a021073b4125")
+		)
+		(pin "1"
+			(uuid "6a147d77-e354-440a-9db9-afdec7f93bcb")
+		)
+		(pin "13"
+			(uuid "c67572c1-24b1-4887-8a01-d7bddc11f8c0")
+		)
+		(pin "45"
+			(uuid "a9c51259-288f-4851-9c97-10c44b3093ac")
+		)
+		(pin "47"
+			(uuid "07089973-85f9-43f4-aa55-ff2bc508db88")
+		)
+		(pin "46"
+			(uuid "2e71363a-83ec-422f-b318-8b5d000a9485")
+		)
+		(pin "19"
+			(uuid "7ba0ac02-b5dd-432e-93da-76aee1535e69")
+		)
+		(pin "18"
+			(uuid "67aa2ac8-611c-4fb0-a116-f70204074c65")
+		)
+		(pin "4"
+			(uuid "c97e2a53-58d6-4a04-a70c-e6f1a7cc984f")
+		)
+		(pin "5"
+			(uuid "da682997-63fb-496e-b906-087580094411")
+		)
+		(pin "7"
+			(uuid "6fb2e41a-b68b-48a2-a4ef-686130c9326d")
+		)
+		(pin "6"
+			(uuid "1ac4103e-54cf-4fc7-b2e9-6df40f2b71bd")
+		)
+		(pin "8"
+			(uuid "b60b2ff7-9d8a-40c1-8061-421dea2fef90")
+		)
+		(pin "9"
+			(uuid "df8d5fc6-425a-4cdd-b426-ecf92098f6e5")
+		)
+		(pin "10"
+			(uuid "dcf387f8-e645-4a82-9d66-5129fcb2b43d")
+		)
+		(pin "12"
+			(uuid "075a7c5e-d62d-4697-9085-264c47ef8fbe")
+		)
+		(pin "16"
+			(uuid "a2297311-0e90-49cd-9448-65ff79f9ebea")
+		)
+		(pin "15"
+			(uuid "60b9baff-dc88-46f7-a643-e7f12ad20327")
+		)
+		(pin "17"
+			(uuid "78c380bb-3e70-4547-a040-d3b44b6bf568")
+		)
+		(pin "31"
+			(uuid "057bee22-b28a-4f67-9b42-59f08125810e")
+		)
+		(pin "14"
+			(uuid "f8330370-2ba3-45c1-aaa9-772bfa474a82")
+		)
+		(pin "35"
+			(uuid "264b9866-c719-4a9f-ad8f-7314562fba35")
+		)
+		(pin "44"
+			(uuid "fd070c38-cc3e-42d0-9409-cf5901a0d59d")
+		)
+		(pin "49"
+			(uuid "d150c95c-4b29-4970-a9a4-8e2e971c741c")
+		)
+		(pin "33"
+			(uuid "c0993121-6b24-40af-990c-e02697476ef3")
+		)
+		(pin "24"
+			(uuid "d0315b65-badb-4087-9adb-cab829c52bef")
+		)
+		(pin "37"
+			(uuid "9e520bd9-4d8d-42bd-bd92-64f5c87f27ae")
+		)
+		(pin "42"
+			(uuid "2b54a052-a6bb-491b-a706-ebae8d240a8d")
+		)
+		(pin "49"
+			(uuid "f2be0c11-dbd9-41c0-a3ec-e133b26f6577")
+		)
+		(pin "26"
+			(uuid "620f55f2-fe2c-4865-a340-eac87eb73765")
+		)
+		(pin "32"
+			(uuid "9f6d1711-e2e7-4876-954a-6e0b0ceec20d")
+		)
+		(pin "27"
+			(uuid "b283517f-480f-4f8b-bac0-9400383c1e12")
+		)
+		(pin "43"
+			(uuid "67c50c5d-16ca-4a5d-b7ec-f1c8f38a2f11")
+		)
+		(pin "36"
+			(uuid "fcf9080a-0855-4f0a-92dd-3c5fdc359c2b")
+		)
+		(pin "41"
+			(uuid "3743ae67-2116-4a2e-a003-1fb30392e9ac")
+		)
+		(pin "11"
+			(uuid "9c307e91-b31f-45fc-91a1-d2149f81275f")
+		)
+		(pin "34"
+			(uuid "ea014817-9b00-40fe-8532-6e1ae07fe814")
+		)
+		(pin "21"
+			(uuid "90b8ae74-8916-44ab-91be-8bc7c15e93f3")
+		)
+		(pin "38"
+			(uuid "3d09ab64-bd0e-49f5-9d97-e14d11770e82")
+		)
+		(pin "20"
+			(uuid "29745ed0-4868-4e87-9eb0-f4164b7c06e2")
+		)
+		(pin "22"
+			(uuid "450af09f-6f09-4b51-a471-f7ee5cc973a2")
+		)
+		(pin "23"
+			(uuid "0100fb35-b6db-42da-baa8-91cb0d130384")
+		)
+		(pin "25"
+			(uuid "8bd2071d-36f9-4c8a-b5a7-9536df538605")
+		)
+		(pin "29"
+			(uuid "dbf43584-0afc-407a-b03d-83aa4cf86bf5")
+		)
+		(pin "28"
+			(uuid "63fce162-90bc-471c-a8e4-b30e156fca9a")
+		)
+		(pin "30"
+			(uuid "7fdbd0ad-7f49-4be0-89ac-4b66d713aab6")
+		)
+		(instances
+			(project "Bluetooth_LoRa_4cm"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/e24871eb-dbd9-4f2b-bfd4-3192f147e910"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 52.07 48.26 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0b893def-b1fe-4463-8afb-5704fd30f562")
+		(property "Reference" "R8"
+			(at 53.34 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "~"
+			(at 54.61 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LoRa:RESC1005X04N"
+			(at 52.07 46.482 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 52.07 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 52.07 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "100R"
+			(at 54.61 46.482 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 72 72 1)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "RC0402FR-07100RL"
+			(at 53.34 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "YAGEO"
+			(at 49.53 45.212 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5368434e-4969-4296-a73a-4dbbae28d27a")
+		)
+		(pin "1"
+			(uuid "1aa3f518-7750-454e-8aab-90294df52822")
+		)
+		(instances
+			(project "Bluetooth_LoRa_4cm"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/e24871eb-dbd9-4f2b-bfd4-3192f147e910"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 64.77 54.61 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0e8cae99-7895-4348-9a2b-92b6ecf9ce7a")
+		(property "Reference" "C8"
+			(at 60.96 53.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1 nF"
+			(at 60.96 55.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Bluetooth____LoRaa:CAPC1005X55N"
+			(at 65.7352 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 64.77 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 64.77 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Yageo"
+			(at 64.77 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "801f4760-6ca1-41f2-a7e7-638e4b27e8de")
+		)
+		(pin "2"
+			(uuid "8d006c65-d8bc-4348-ac57-60471ef2b147")
+		)
+		(instances
+			(project "Bluetooth_LoRa_4cm"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/e24871eb-dbd9-4f2b-bfd4-3192f147e910"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 95.25 125.73 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "112e5887-fee8-4354-bd36-8c1db5279227")
+		(property "Reference" "#PWR020"
+			(at 95.25 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 95.25 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.25 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 95.25 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ee43ea8e-16b7-4d47-99b2-8d9670eefc25")
+		)
+		(instances
+			(project "Bluetooth_LoRa_4cm"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/e24871eb-dbd9-4f2b-bfd4-3192f147e910"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Bluetooth____LoRa:U_Top_3_Inductor_MCD_PARTS_database.DbLib")
+		(at 216.9529 104.14 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "19a5faa4-45ac-4b7c-a5ab-9fe6ec133cc4")
+		(property "Reference" "L11"
+			(at 224.5729 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "11 nH"
+			(at 216.9529 110.1598 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "LoRa:LQW15AN11NG00D"
+			(at 216.9529 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 216.9529 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RF Inductor"
+			(at 216.9529 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "REVISION" ""
+			(at 220.2549 101.092 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" ""
+			(at 227.1129 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" ""
+			(at 220.2549 101.092 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 220.2549 101.092 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b7320e69-4cdd-4bac-8214-87f513525010")
+		)
+		(pin "1"
+			(uuid "1d1a3e13-0d0d-4806-988c-bc35028435aa")
+		)
+		(instances
+			(project "Bluetooth_LoRa_4cm"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/e24871eb-dbd9-4f2b-bfd4-3192f147e910"
+					(reference "L11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 62.23 80.01 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1df1ee47-5307-4413-936d-e8bf50d33fe4")
+		(property "Reference" "C14"
+			(at 58.928 79.502 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "Capa_0402"
+			(at 61.976 74.422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LoRa:CAPC1005X06N"
+			(at 61.2648 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 62.23 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 62.23 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "REVISION" ""
+			(at 65.278 80.264 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "10 pF"
+			(at 59.182 81.788 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 72 72 1)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "GJM1555C1H100FB01D"
+			(at 65.278 80.264 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "MURATA"
+			(at 65.278 80.264 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e2f8baa8-757c-44c3-8198-242eb035ead2")
+		)
+		(pin "2"
+			(uuid "7b2c9796-5f88-4554-9d13-bfa378b88789")
+		)
+		(instances
+			(project "Bluetooth_LoRa_4cm"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/e24871eb-dbd9-4f2b-bfd4-3192f147e910"
+					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 121.92 73.66 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "288f837c-919e-4f13-95d8-1b88b90f9ecc")
+		(property "Reference" "L10"
+			(at 120.142 69.088 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "8.7 nH"
+			(at 118.872 70.866 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "LoRa:LQW15AN8N7G00D"
+			(at 121.92 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 121.92 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Inductor"
+			(at 121.92 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "REVISION" ""
+			(at 120.65 76.708 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" ""
+			(at 115.57 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" ""
+			(at 111.76 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 120.65 76.708 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d8e859a1-7cf7-4f77-8d28-a1d7327f3ccc")
+		)
+		(pin "2"
+			(uuid "ab4e9090-e3ef-42b4-8af2-1476ce21960a")
+		)
+		(instances
+			(project "Bluetooth_LoRa_4cm"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/e24871eb-dbd9-4f2b-bfd4-3192f147e910"
+					(reference "L10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 43.18 73.66 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4c27542e-a52d-4887-a9b1-bdf9f0e2fd26")
+		(property "Reference" "R9"
+			(at 41.91 68.326 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "~"
+			(at 40.64 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LoRa:RESC1005X04N"
+			(at 43.18 75.438 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 43.18 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 43.18 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "100R"
+			(at 40.64 70.612 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 72 72 1)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "RC0402FR-07100RL"
+			(at 41.91 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "YAGEO"
+			(at 45.72 76.708 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "15c3e386-fc8c-41bf-ac58-017da78e80d9")
+		)
+		(pin "1"
+			(uuid "f8723e33-4cfd-4574-b313-086197959083")
+		)
+		(instances
+			(project "Bluetooth_LoRa_4cm"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/e24871eb-dbd9-4f2b-bfd4-3192f147e910"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Bluetooth____LoRa:GCM1555C1H680JA16D")
+		(at 191.77 77.47 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5331097c-cd53-4328-a480-ac3e901186db")
+		(property "Reference" "C10"
+			(at 187.96 77.4699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "68pF"
+			(at 187.96 80.0099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Bluetooth____LoRaa:CAPC1005X55N"
+			(at 191.77 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 191.77 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7d6cd657-a98e-41bc-97b7-021d9daf83ee")
+		)
+		(pin "2"
+			(uuid "cceb8ebf-115e-475b-8cf7-693bc36031c1")
+		)
+		(instances
+			(project "Bluetooth_LoRa_4cm"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/e24871eb-dbd9-4f2b-bfd4-3192f147e910"
+					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 49.53 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "55f1c67c-660c-42cf-b3d5-a2069f5c678e")
+		(property "Reference" "C47"
+			(at 46.228 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1 nF"
+			(at 46.228 100.584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 72 72 1)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Bluetooth____LoRaa:CAPC1005X55N"
+			(at 50.4952 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 49.53 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 49.53 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Yageo"
+			(at 49.53 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ef026673-6d73-4bad-a8f6-8b16f4356304")
+		)
+		(pin "2"
+			(uuid "1bd8d8df-27fb-4041-b3cd-e616f7f802aa")
+		)
+		(instances
+			(project "Bluetooth_LoRa_4cm"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/e24871eb-dbd9-4f2b-bfd4-3192f147e910"
+					(reference "C47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Bluetooth____LoRa:U_Top_0_Capacitor_MCD_PARTS_database.DbLib")
+		(at 148.59 99.06 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "56b32cba-e14a-440c-aabc-664f4b14b23b")
+		(property "Reference" "C46"
+			(at 148.844 99.314 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "3.3 pF"
+			(at 148.844 106.426 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "LoRa:CAPC1005X55N"
+			(at 148.59 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RF Capacitor"
+			(at 148.59 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "REVISION" ""
+			(at 151.638 99.314 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" ""
+			(at 148.844 106.426 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" ""
+			(at 151.638 94.234 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 151.638 94.234 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c128c444-d2d7-4c72-afa7-86c92c35ff88")
+		)
+		(pin "2"
+			(uuid "2e156fdc-59af-4bff-aff9-e35f068935e0")
+		)
+		(instances
+			(project "Bluetooth_LoRa_4cm"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/e24871eb-dbd9-4f2b-bfd4-3192f147e910"
+					(reference "C46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "0_LoRa:BGS13SN8E6327XTSA1")
+		(at 105.41 73.66 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "592d06ac-62ac-4c89-ab4d-8b7e6227c611")
+		(property "Reference" "U6"
+			(at 89.2967 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BGS13SN8E6327XTSA1"
+			(at 89.2967 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "BGS13SN8E6327XTSA1"
+			(at 81.28 168.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.ph/ProductDetail/Infineon-Technologies/BGS13SN8E6327XTSA1?qs=0DP5yvOrqYmFtfP%252BZ8kQgQ%3D%3D"
+			(at 81.28 268.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "INFINEON - BGS13SN8E6327XTSA1 - RF SWITCH, SP3T, 0.1-6GHZ, TSNP-8"
+			(at 105.41 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.4"
+			(at 81.28 468.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Infineon"
+			(at 81.28 568.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "BGS13SN8E6327XTSA1"
+			(at 81.28 668.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "726-BGS13SN8E6327XTS"
+			(at 81.28 768.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/BGS13SN8E6327XTSA1?qs=0DP5yvOrqYmFtfP%252BZ8kQgQ%3D%3D"
+			(at 81.28 868.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "BGS13SN8E6327XTSA1"
+			(at 81.28 968.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/bgs13sn8e6327xtsa1/infineon-technologies-ag?region=nac"
+			(at 81.28 1068.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "fa22f4d8-4909-4df4-acc1-6674049880e5")
+		)
+		(pin "4"
+			(uuid "87b199be-b8aa-408c-84f4-6807065896f6")
+		)
+		(pin "7"
+			(uuid "f713cd6c-dc2f-43eb-811c-507708066e97")
+		)
+		(pin "6"
+			(uuid "7867179a-16ed-448c-ba98-96c055711ed4")
+		)
+		(pin "1"
+			(uuid "54e222c9-eb49-4808-88d7-4c6866f63964")
+		)
+		(pin "5"
+			(uuid "e8b86b42-3afc-4692-8ad3-a52b8a3791ff")
+		)
+		(pin "3"
+			(uuid "6f9fd9ca-d017-4d43-83d8-496ff21f617c")
+		)
+		(pin "2"
+			(uuid "e7cf1ee9-19c7-42d9-8477-7b2195b7c633")
+		)
+		(instances
+			(project ""
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/e24871eb-dbd9-4f2b-bfd4-3192f147e910"
+					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 135.89 73.66 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "61dc57f4-9fd5-4f99-a8d9-7a3b0b4fb85c")
+		(property "Reference" "C18"
+			(at 137.922 68.072 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "0.68 pF"
+			(at 139.7 70.358 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "LoRa:GJM1555C1HR68WB01D"
+			(at 139.7 74.6252 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 135.89 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 135.89 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "REVISION" ""
+			(at 131.064 68.072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" ""
+			(at 138.176 70.866 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" ""
+			(at 131.064 68.072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 131.064 68.072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bf3fb206-19a1-4724-8752-cc38e21d0d9b")
+		)
+		(pin "2"
+			(uuid "10bfbc61-756f-4cdd-9249-4503637a9284")
+		)
+		(instances
+			(project "Bluetooth_LoRa_4cm"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/e24871eb-dbd9-4f2b-bfd4-3192f147e910"
+					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Bluetooth____LoRa:GND_POWER_GROUND")
+		(at 199.1729 90.17 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6a1085c7-b51d-4667-be67-9573498aaf3a")
+		(property "Reference" "#PWR018"
+			(at 199.1729 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 199.1729 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 199.1729 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 199.1729 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 199.1729 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "641f4dce-5860-4ea1-ba6e-02f34eb1b911")
+		)
+		(instances
+			(project "Bluetooth_LoRa_4cm"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/e24871eb-dbd9-4f2b-bfd4-3192f147e910"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 95.25 111.76 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "70724fb6-333b-46de-95f8-b5b362ba3f99")
+		(property "Reference" "L12"
+			(at 97.282 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "9.1 nH"
+			(at 91.694 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "LoRa:LQW15AN9N1G00D"
+			(at 95.25 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Inductor"
+			(at 95.25 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "REVISION" ""
+			(at 93.98 124.968 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" ""
+			(at 89.408 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" ""
+			(at 86.868 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 93.98 124.968 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f01af950-6263-4273-aa65-af815b877542")
+		)
+		(pin "2"
+			(uuid "9ef5ecef-5f15-4631-8659-6eb512ba62bd")
+		)
+		(instances
+			(project "Bluetooth_LoRa_4cm"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/e24871eb-dbd9-4f2b-bfd4-3192f147e910"
+					(reference "L12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 55.88 106.68 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "729d76fe-6fa6-49d1-982a-b7fc92d4ed63")
+		(property "Reference" "#PWR024"
+			(at 55.88 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 55.88 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 55.88 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 55.88 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a2cd519a-c7fe-47e2-9c7b-73752e30583b")
+		)
+		(instances
+			(project "Bluetooth_LoRa_4cm"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/e24871eb-dbd9-4f2b-bfd4-3192f147e910"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Bluetooth____LoRa:U_Top_0_mirrored_Inductor_MCD_PARTS_database.DbLib")
+		(at 173.7729 69.85 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "822f7b22-36e5-43fa-b088-de12c37884ef")
+		(property "Reference" "L1"
+			(at 178.8529 69.7738 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "47 nH"
+			(at 181.6469 74.8538 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "LoRa:INDC1005X60N"
+			(at 173.7729 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.7729 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RF Inductor"
+			(at 173.7729 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "REVISION" ""
+			(at 186.9809 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" ""
+			(at 180.1229 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" ""
+			(at 183.9329 78.232 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "MURATA"
+			(at 186.9809 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "aeee8e0f-25a1-4059-bcd3-9adfd19e20f1")
+		)
+		(pin "1"
+			(uuid "c425bb19-463f-4e6a-86dc-468a04e0afd8")
+		)
+		(instances
+			(project "Bluetooth_LoRa_4cm"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/e24871eb-dbd9-4f2b-bfd4-3192f147e910"
+					(reference "L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 91.44 91.44 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "89dba4e4-ba87-4088-a575-eb9a81001dfe")
+		(property "Reference" "#PWR023"
+			(at 91.44 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 91.44 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 91.44 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 91.44 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c9bcdbf3-a79d-4ae3-b98c-5b48e0096e15")
+		)
+		(instances
+			(project "Bluetooth_LoRa_4cm"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/e24871eb-dbd9-4f2b-bfd4-3192f147e910"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 104.14 118.11 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "90f3fcd7-91d5-4562-8d8c-740050bbc910")
+		(property "Reference" "C49"
+			(at 100.838 117.602 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "3.3 pF"
+			(at 100.584 120.142 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "LoRa:CAPC1005X55N"
+			(at 103.1748 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 104.14 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 104.14 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "REVISION" ""
+			(at 108.966 115.062 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" ""
+			(at 104.394 122.936 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" ""
+			(at 108.966 115.062 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 108.966 115.062 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" "C0402"
+			(at 108.966 115.062 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "de610ff5-cb89-4dfa-990b-b44f0ee9fbab")
+		)
+		(pin "2"
+			(uuid "469b4126-8e0a-4a5e-a45b-9548b9eff69e")
+		)
+		(instances
+			(project "Bluetooth_LoRa_4cm"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/e24871eb-dbd9-4f2b-bfd4-3192f147e910"
+					(reference "C49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 55.88 87.63 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "98da8619-3b7a-4c49-815f-97691b1406f9")
+		(property "Reference" "#PWR019"
+			(at 55.88 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 55.88 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 55.88 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 55.88 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5eab7f7c-b238-480e-961b-7ee1b41ec030")
+		)
+		(instances
+			(project "Bluetooth_LoRa_4cm"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/e24871eb-dbd9-4f2b-bfd4-3192f147e910"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 86.36 118.11 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9b0b3fb3-9c16-4504-a759-cd4e7adecf0e")
+		(property "Reference" "C50"
+			(at 83.058 117.602 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "3.3 pF"
+			(at 83.058 120.142 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "LoRa:CAPC1005X55N"
+			(at 85.3948 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 86.36 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 86.36 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "REVISION" ""
+			(at 91.186 115.062 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" ""
+			(at 86.614 122.936 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" ""
+			(at 91.186 115.062 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 91.186 115.062 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" "C0402"
+			(at 91.186 115.062 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "12fe8399-2d2f-463e-b382-fcb9ff1d6e84")
+		)
+		(pin "2"
+			(uuid "db106cc8-a348-40e8-8512-74460492c9e5")
+		)
+		(instances
+			(project "Bluetooth_LoRa_4cm"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/e24871eb-dbd9-4f2b-bfd4-3192f147e910"
+					(reference "C50")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 49.53 80.01 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "abb1dceb-514d-48c1-a3c8-94b2af5ef54c")
+		(property "Reference" "C42"
+			(at 46.228 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1 nF"
+			(at 46.228 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 72 72 1)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Bluetooth____LoRaa:CAPC1005X55N"
+			(at 50.4952 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 49.53 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 49.53 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Yageo"
+			(at 49.53 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "276b09b3-6f53-485b-8a4a-a2b25d289c63")
+		)
+		(pin "2"
+			(uuid "e059acbe-82c1-4199-afec-4699de21264e")
+		)
+		(instances
+			(project "Bluetooth_LoRa_4cm"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/e24871eb-dbd9-4f2b-bfd4-3192f147e910"
+					(reference "C42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Bluetooth____LoRa:VDD")
+		(at 44.45 46.99 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ad7fba04-dfae-475c-a7b8-b66f171750f5")
+		(property "Reference" "#PWR02"
+			(at 44.45 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VMCU"
+			(at 44.45 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.45 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 44.45 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "41c7e455-a9c5-45bc-b96d-462bc146068b")
+		)
+		(instances
+			(project "Bluetooth_LoRa_4cm"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/e24871eb-dbd9-4f2b-bfd4-3192f147e910"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 72.39 60.96 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "be766af5-c5f0-48ed-a303-ab3cf61dc077")
+		(property "Reference" "#PWR017"
+			(at 72.39 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 72.39 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.39 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 72.39 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8b50a9c7-6bd5-48da-9b44-6eba08d6ed13")
+		)
+		(instances
+			(project "Bluetooth_LoRa_4cm"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/e24871eb-dbd9-4f2b-bfd4-3192f147e910"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 74.93 111.76 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c0f5f2c9-4c75-4335-bb01-409217c951ba")
+		(property "Reference" "C48"
+			(at 76.962 106.934 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "0.68 pF"
+			(at 70.104 106.172 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LoRa:GJM1555C1HR68WB01D"
+			(at 78.74 112.7252 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 74.93 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 74.93 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "REVISION" ""
+			(at 70.104 106.172 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "0.68pF"
+			(at 78.486 108.966 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 72 72 1)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "GRM1555C1HR68WB01D"
+			(at 70.104 106.172 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Murata"
+			(at 70.104 106.172 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5b40b91b-75cf-4cfd-b011-105d686c4b8a")
+		)
+		(pin "2"
+			(uuid "8ce284eb-1088-4025-bb76-bce663a9c4ac")
+		)
+		(instances
+			(project "Bluetooth_LoRa_4cm"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/e24871eb-dbd9-4f2b-bfd4-3192f147e910"
+					(reference "C48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 157.48 80.01 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c7d963ab-22c2-4154-a8fc-417315ad330f")
+		(property "Reference" "C43"
+			(at 154.686 79.248 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "0.7 pF"
+			(at 154.686 82.296 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "LoRa:GJM1555C1HR70BB01D"
+			(at 156.5148 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 157.48 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 157.48 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "REVISION" ""
+			(at 162.306 76.962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" ""
+			(at 157.734 84.836 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "Not Connected"
+			(at 162.306 76.962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 162.306 76.962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" "C0402"
+			(at 162.306 76.962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "90e2422b-7626-4167-8458-aa50a9ddf8f1")
+		)
+		(pin "1"
+			(uuid "54b9630b-504f-49c3-87c5-e6518c5b921c")
+		)
+		(instances
+			(project "Bluetooth_LoRa_4cm"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/e24871eb-dbd9-4f2b-bfd4-3192f147e910"
+					(reference "C43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 149.86 73.66 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cdf50af2-5b91-4ad1-a404-77729da67dd7")
+		(property "Reference" "L2"
+			(at 149.098 68.834 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "3.6 nH"
+			(at 146.558 70.866 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "LoRa:LQW15AN3N6C10D"
+			(at 149.86 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 149.86 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Inductor"
+			(at 149.86 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "REVISION" ""
+			(at 148.59 76.708 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" ""
+			(at 142.24 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" ""
+			(at 148.59 76.708 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 148.59 76.708 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c5125c31-cf99-4d12-b746-daec3ad6eafa")
+		)
+		(pin "2"
+			(uuid "d185a87d-f835-47a6-b57c-989b910abe99")
+		)
+		(instances
+			(project "Bluetooth_LoRa_4cm"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/e24871eb-dbd9-4f2b-bfd4-3192f147e910"
+					(reference "L2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Bluetooth____LoRa:U_Top_1_Capacitor_MCD_PARTS_database.DbLib")
+		(at 222.0329 121.92 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d5aa3a71-e418-4575-9615-b353c98b1d28")
+		(property "Reference" "C51"
+			(at 217.2069 121.666 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "3.6 pF"
+			(at 228.3829 121.3358 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "LoRa:GJM1555C1H3R6CB01D"
+			(at 222.0329 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 222.0329 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RF Capacitor"
+			(at 222.0329 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "REVISION" ""
+			(at 221.7789 116.332 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" ""
+			(at 217.2069 124.206 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" ""
+			(at 221.7789 116.332 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 221.7789 116.332 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "487688af-32ac-4ad0-829f-2faad89c9275")
+		)
+		(pin "2"
+			(uuid "a2b18d7b-69ae-41d2-8bcd-8c4d03f910ca")
+		)
+		(instances
+			(project "Bluetooth_LoRa_4cm"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/e24871eb-dbd9-4f2b-bfd4-3192f147e910"
+					(reference "C51")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 149.86 64.77 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d705316c-15b2-4662-b8ba-108c2ed0908a")
+		(property "Reference" "C13"
+			(at 151.892 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "2 pF"
+			(at 152.4 61.722 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "LoRa:GJM1555C1H2R0CB01D"
+			(at 153.67 65.7352 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 149.86 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 149.86 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "REVISION" ""
+			(at 150.114 61.722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" ""
+			(at 157.226 64.516 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" ""
+			(at 145.034 61.722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 145.034 61.722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d4228a59-f375-46f5-b3b4-25da5b1b6e0e")
+		)
+		(pin "1"
+			(uuid "73b2a65d-66b2-4fe2-b0f5-f1391f54498f")
+		)
+		(instances
+			(project "Bluetooth_LoRa_4cm"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/e24871eb-dbd9-4f2b-bfd4-3192f147e910"
+					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 43.18 92.71 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dc5c3d24-410a-4646-9e24-656deeee7e0d")
+		(property "Reference" "R10"
+			(at 41.402 87.376 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "~"
+			(at 40.64 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LoRa:RESC1005X04N"
+			(at 43.18 94.488 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 43.18 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 43.18 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "100R"
+			(at 40.64 89.662 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 72 72 1)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "RC0402FR-07100RL"
+			(at 41.91 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "YAGEO"
+			(at 45.72 95.758 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9198fa61-9d6f-40d7-ba93-70362603ae90")
+		)
+		(pin "1"
+			(uuid "ac546bf1-7fd7-4bfe-8f2f-7a196bed8e2f")
+		)
+		(instances
+			(project "Bluetooth_LoRa_4cm"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/e24871eb-dbd9-4f2b-bfd4-3192f147e910"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Bluetooth____LoRa:GND_POWER_GROUND")
+		(at 219.4929 124.46 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e7f678ac-ba29-413c-98e6-c202c04d650a")
+		(property "Reference" "#PWR035"
+			(at 219.4929 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 219.4929 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 219.4929 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.4929 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 219.4929 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "9297bb82-1ec4-42d8-936e-e0afd11694ee")
+		)
+		(instances
+			(project "Bluetooth_LoRa_4cm"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/e24871eb-dbd9-4f2b-bfd4-3192f147e910"
+					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 78.74 54.61 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ebaabe37-7c45-48ad-9135-a963c425cd0e")
+		(property "Reference" "C7"
+			(at 75.184 54.356 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "Capa_0402"
+			(at 78.486 49.022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LoRa:CAPC1005X06N"
+			(at 77.7748 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 78.74 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 78.74 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "REVISION" ""
+			(at 81.788 54.864 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "10 pF"
+			(at 75.184 56.896 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 72 72 1)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "GJM1555C1H100FB01D"
+			(at 81.788 54.864 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "MURATA"
+			(at 81.788 54.864 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "71030cb8-7a46-4598-97cd-4182f3f796bc")
+		)
+		(pin "2"
+			(uuid "b658750b-053b-4d05-afc4-7d341050d799")
+		)
+		(instances
+			(project "Bluetooth_LoRa_4cm"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/e24871eb-dbd9-4f2b-bfd4-3192f147e910"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 149.86 87.63 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ee2b23c4-5c39-4483-8f68-80f4658508f8")
+		(property "Reference" "#PWR022"
+			(at 149.86 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 149.86 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.86 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 149.86 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5454ddeb-8d5d-4584-984b-4ef345933bf2")
+		)
+		(instances
+			(project "Bluetooth_LoRa_4cm"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/e24871eb-dbd9-4f2b-bfd4-3192f147e910"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Bluetooth____LoRa:GCM155R71E473KA55J")
+		(at 207.01 77.47 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f2b1f947-30f5-4e9f-89c1-266507e4b2c1")
+		(property "Reference" "C9"
+			(at 203.2 77.4699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47 nF"
+			(at 203.2 80.0099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Bluetooth____LoRaa:CAPC1005X55N"
+			(at 207.01 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 207.01 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 207.01 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4060c850-ee29-4a30-a3bb-ff5841f1ef34")
+		)
+		(pin "2"
+			(uuid "2bc97872-c9c3-479e-b60f-1cd55dc1494c")
+		)
+		(instances
+			(project "Bluetooth_LoRa_4cm"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/e24871eb-dbd9-4f2b-bfd4-3192f147e910"
+					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 62.23 99.06 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ff3ebe33-2ca8-430b-9e45-16855158ebaf")
+		(property "Reference" "C45"
+			(at 58.928 98.552 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "Capa_0402"
+			(at 61.976 93.472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LoRa:CAPC1005X06N"
+			(at 61.2648 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 62.23 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 62.23 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "REVISION" ""
+			(at 65.278 99.314 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "10 pF"
+			(at 58.928 101.092 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 72 72 1)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "GJM1555C1H100FB01D"
+			(at 65.278 99.314 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "MURATA"
+			(at 65.278 99.314 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e91089c3-0ea7-4cd9-b410-f8e81127ab66")
+		)
+		(pin "2"
+			(uuid "46dbfb4a-b8a9-4294-99f1-8812d2adadb2")
+		)
+		(instances
+			(project "Bluetooth_LoRa_4cm"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/e24871eb-dbd9-4f2b-bfd4-3192f147e910"
+					(reference "C45")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

@@ -1,0 +1,9 @@
+(version 1)
+
+(rule "Ignore courtyard for shields SH1 and SH3"
+  (constraint courtyard_clearance)
+  (severity ignore)
+  (condition
+    "A.Reference == 'SHIELD1' || A.Reference == 'SHIELD3' || B.Reference == 'SHIELD1' || B.Reference == 'SHIELD3'"
+  )
+)
